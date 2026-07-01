@@ -8,7 +8,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CPSC-349 Lab 3: Responsive Movies Portal</title>
+    <title>CPSC-349 Lab 3: Movies Portal</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 
@@ -43,31 +43,42 @@
 
             <div class="movie-grid">
 
-                <!-- article: Defines a self-contained, independent composition like a card, post, or article -->
-                <article class="movie-card">
-                    <h3>The Boys</h3>
-                    <img src="images/the_boys.jpg" alt="The Boys poster" width="200">
-                    <p>A fun and irreverent take on what happens when superheroes abuse their superpowers.</p>
-                    <p><strong>Rating:</strong> 8.7/10</p>
-                    <a class="btn" href="details.html">View Details</a>
-                </article>
+            <!-- article: Defines a self-contained, independent composition like a card, post, or article -->
+            <article class="movie-card">
+                <h3>Clerk down</h3>
+                <img src="images/clerkdown.png" alt="Clerk down Poster" width="200">
+                <p>It breached again.</p>
+                <p><strong>Rating:</strong> 8.7/10</p>
+                <p><strong>Trailer:</strong></p>
+                <video controls src="videos/Clerck_Down_YIPEE(2).mp4" type="video/mp4" width="200"> </video>
+                <p><strong>Theme:</strong></p>
+                <audio controls src="audio/09. First Warning.mp3" type="audio/mp3" width="200"></audio>
+                <a class="btn" href="details.html">View Details</a>
+            </article>
 
-                <article class="movie-card">
-                    <h3>Superman</h3>
-                    <img src="images/superman.jpeg" alt="Superman movie poster" width="200">
-                    <p>An upcoming superhero movie following Superman's journey to reconcile his Kryptonian heritage.
-                    </p>
-                    <p><strong>Rating:</strong> 8.5/10</p>
-                    <a class="btn" href="details.html">View Details</a>
-                </article>
+            <article class="movie-card">
+                <h3>Cyberpunk Edgerunners</h3>
+                <img src="images/edgerunners.jpg" alt="Cyberpunk Edgerunners Poster" width="200">
+                <p>A Street Kid trying to survive in a technology and body modification-obsessed city of the future. Having everything to lose, he chooses to stay alive by becoming an Edgerunner, a Mercenary outlaw also known as a Cyberpunk.</p>
+                <p><strong>Rating:</strong> 8.5/10</p>
+                <p><strong>Trailer:</strong></p>
+                <p><video controls src="videos/EdgeRunners.mp4" type="video/mp4" width="200"></video></p>
+                <p><strong>Theme:</strong></p>
+                <p><audio controls src="audio/11. I Really Want to Stay at Your House.mp3" type="audio/mp3" width="200"></audio></p>
+                <a class="btn" href="details.html">View Details</a>
+            </article>
 
-                <article class="movie-card">
-                    <h3>Avatar: Fire and Ash</h3>
-                    <img src="images/avatar_fire_and_ash.jpeg" alt="Avatar: Fire and Ash movie poster" width="200">
-                    <p>The next chapter in the Avatar franchise exploring the new ash people of Pandora.</p>
-                    <p><strong>Rating:</strong> 8.9/10</p>
-                    <a class="btn" href="details.html">View Details</a>
-                </article>
+            <article class="movie-card">
+                <h3>Kerbal Space Program</h3>
+                <img src="images/shitfuck22.jpg" alt="Kerbal Space Program Poster" width="200">
+                <p>Make A Rocket That Goes to Space</p>
+                <p><strong>Rating:</strong> 8.9/10</p>
+                <p><strong>Trailer:</strong></p>
+                <p><video controls src="videos/successfulLaunch.mp4" type="video/mp4" width="200"></video></p>
+                <p><strong>Theme:</strong></p>
+                <p><audio controls src="audio/2. Bathed in the Light.mp3" type="audio/mp3" width="200"></audio></p>
+                <a class="btn" href="details.html">View Details</a>
+            </article>
             </div>
         </section>
 
@@ -88,39 +99,37 @@
             <h2>Top Movies Table</h2>
 
             <!-- table: Formats structured tabular data into organized rows, header blocks, and data cells -->
-            <div class="table-wrap">
-                <table class="movies-table">
-                    <thead>
-                        <tr>
-                            <th>Title</th>
-                            <th>Genre</th>
-                            <th>Year</th>
-                            <th>Rating</th>
-                        </tr>
-                    </thead>
+            <table class="movies-table">
+                <thead>
+                    <tr>
+                        <th>Title</th>
+                        <th>Genre</th>
+                        <th>Year</th>
+                        <th>Rating</th>
+                    </tr>
+                </thead>
 
-                    <tbody>
-                        <tr>
-                            <td>The Boys</td>
-                            <td>Action / Sci-Fi</td>
-                            <td>2019</td>
-                            <td>8.7</td>
-                        </tr>
-                        <tr>
-                            <td>Superman</td>
-                            <td>Action / Sci-Fi</td>
-                            <td>2025</td>
-                            <td>8.5</td>
-                        </tr>
-                        <tr>
-                            <td>Avatar: Fire and Ash</td>
-                            <td>Science Fiction</td>
-                            <td>2025</td>
-                            <td>8.9</td>
-                        </tr>
-                    </tbody>
-                </table>
-            </div>
+                <tbody>
+                    <tr>
+                        <td>Clerk Down</td>
+                        <td>Action / Sci-Fi / Horror</td>
+                        <td>2018</td>
+                        <td>8.7</td>
+                    </tr>
+                    <tr>
+                        <td>Cyberpunk: Edgerunners</td>
+                        <td>Action / Sci-Fi</td>
+                        <td>2022</td>
+                        <td>8.5</td>
+                    </tr>
+                    <tr>
+                        <td>Kerbal Space Program</td>
+                        <td>Science Fiction</td>
+                        <td>2012</td>
+                        <td>8.9</td>
+                    </tr>
+                </tbody>
+            </table>
         </section>
 
         <section id="reviews" class="section">
@@ -130,16 +139,16 @@
             <!-- form: Wraps interactive controls to capture and submit user input -->
             <form action="#" method="post">
                 <!-- label: Provides a text label linked directly to a form control for accessibility -->
-                <label>Movie Title:</label>
+                <label for="movie-title">Movie Title:</label>
                 <br>
                 <!-- input: Creates basic interactive fields to capture user text or button clicks -->
-                <input type="text" placeholder="Coming soon..." disabled>
+                <input type="text" id="movie-title" name="movie-title" placeholder="Coming soon..." disabled>
                 <br><br>
 
-                <label>Rating:</label>
+                <label for="rating">Rating:</label>
                 <br>
                 <!-- select: Creates a drop-down menu for selecting from multiple options -->
-                <select disabled>
+                <select id="rating" name="rating" disabled>
                     <option value="5">5 - Excellent</option>
                     <option value="4">4 - Good</option>
                     <option value="3">3 - Average</option>
@@ -151,17 +160,18 @@
                 <label for="review">Your Review:</label>
                 <br>
                 <!-- textarea: Provides a multi-line text input control suitable for longer text entries -->
-                <textarea rows="5" cols="40" placeholder="Write review here once available..." disabled></textarea>
+                <textarea id="review" name="review" rows="5" cols="40" placeholder="Write review here once available..."
+                    disabled></textarea>
                 <br><br>
 
-                <input class="btn" type="submit" value="Submit Review" disabled>
+                <input type="submit" value="Submit Review" disabled>
             </form>
         </section>
 
     </main>
 
     <!-- footer: Contains concluding page details such as copyright notices and contact information -->
-    <footer id="contact">
+    <footer id="contact" class="footer">
         <p>&copy; 2026 Movies Portal</p>
         <p>Contact us at <a href="mailto:movies@example.com">movies@cspc349.com</a></p>
     </footer>
