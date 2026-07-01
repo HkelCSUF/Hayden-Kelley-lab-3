@@ -204,9 +204,14 @@ Students must submit:
 
 ## Screenshot of Finished Page
 
-Desktop
+### Desktop
+
 ![FinishedDesktop](images/FinishedScreenshotLab3Desktop.png)
-Tablet / IPad
+
+### Tablet / IPad
+
 ![FinishedTablet](images/FinishedScreenshotLab3Tablet.png)
-Mobile / Phone
+
+### Mobile / Phone
+
 ![FinishedMobile](images/FinishedScreenshotLab3Mobile.png)
